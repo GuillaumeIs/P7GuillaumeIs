@@ -15,6 +15,6 @@ router.post("/api/auth/inscription", utiCTRL.inscription);
 router.post("/api/auth/connexion", utiCTRL.connexion);
 router.delete("/api/auth/:id_uti", auth, utiCTRL.suppCompte);
 //Importations des informations de l'utilisateurs
-router.get("/api/uti", auth, utiCTRL.Uti);
+router.get("/api/uti/:id_uti", auth, utiCTRL.Uti);
 
 module.exports = router;

@@ -1,42 +1,42 @@
 # Groupomania - Projet 7
-Réalisation d'un réseaux social interne,
-sur lequel les employées d'une entreprise,
+Réalisation d'un réseaux social interne, <br>
+sur lequel les employées d'une entreprise, <br>
 pourront échanger sur les dernières actualités.
 
 ## Backend
-CHEMIN:
-cd back
+CHEMIN: <br>
+cd back <br>
 
-INSTALLATION:
-Init : npm init
-Package Nodemon : npm i -g nodemon
-Package Express : npm i --save express
-Package HTTP : npm i http
-Package MySQL2 : npm i mysql2
-Package Sequelize : npm i sequelize
-Package Bcrypt: npm i bcrypt
-Package Jsonwebtoken : npm i jsonwebtoken
-Package Multer : npm i multer
-Package Cors : npm i cors
-Package Path : npm i path
+INSTALLATION: <br>
+Init : npm init <br>
+Package Nodemon : npm i -g nodemon <br>
+Package Express : npm i --save express <br>
+Package HTTP : npm i http <br>
+Package MySQL2 : npm i mysql2 <br>
+Package Sequelize : npm i sequelize <br>
+Package Bcrypt: npm i bcrypt <br>
+Package Jsonwebtoken : npm i jsonwebtoken <br>
+Package Multer : npm i multer <br>
+Package Cors : npm i cors <br>
+Package Path : npm i path <br>
 
-DÉMARRAGE:
-nodemon server
+DÉMARRAGE: <br>
+nodemon server <br>
 
-## Base de données:
-Outil utilisé : PhpMyAdmin
+## Base de données
+Outil utilisé: PhpMyAdmin <br>
 
-Fichier .sql: back\bdd -> groupomania.sql
-Configuration accès : back\bdd.js
+Fichier .sql: back\bdd -> groupomania.sql <br>
+Configuration accès : back\bdd.js <br>
 
 ## Frontend
-CHEMIN:
-cd front\groupomania
+CHEMIN: <br>
+cd front/groupomania <br>
 
-INSTALLATION:
-Frontend:
-Package Vue : npm i -g @vue/cli -> Vue 3
-Package Vue-router : npm i vue-router
+INSTALLATION: <br>
+Frontend: <br>
+Package Vue : npm i -g @vue/cli -> Vue 3 <br>
+Package Vue-router : npm i vue-router <br>
 
-DÉMARRAGE:
+DÉMARRAGE: <br>
 npm run serve

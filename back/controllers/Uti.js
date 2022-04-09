@@ -8,7 +8,9 @@ const Uti = require("../models/Uti");
 
 //Affichage des données utilisateur
 exports.Uti = (req, res, next) => {
-  Uti.findAll()
+  Uti.findOne({
+    where: { id: req.params.id_uti }
+  })
   .then((result) => res.status(200).json(result))
   .catch((error) => res.status(400).json(error))
 };
