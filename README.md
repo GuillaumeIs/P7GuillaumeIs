@@ -1,6 +1,6 @@
 # Groupomania - Projet 7
 Réalisation d'un réseaux social interne, <br>
-sur lequel les employées d'une entreprise, <br>
+sur lequel les employées de l'entreprise, <br>
 pourront échanger sur les dernières actualités.
 
 ## Backend
