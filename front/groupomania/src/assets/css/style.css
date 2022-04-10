@@ -1,0 +1,252 @@
+body {
+    background-image: url("../img/fond-web.jpg");
+	background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+	color: rgb(39, 114, 180);
+    font-size: 20px;
+}
+
+img {
+	height: 17.5vh;
+}
+
+a {
+	text-decoration:none;
+}
+
+nav {
+	margin: auto;
+	list-style:none;
+	display: flex;
+	width: 60vw;
+	height: 10vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	}
+		
+nav li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 10vh;
+	font-size: 1.2vw;
+}
+		
+nav li a {
+	color:rgb(39, 114, 180);
+}
+		
+nav li:hover {
+	background-color: rgba(100, 100, 100, 0.2);
+}
+
+button {
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.logo_centre {
+    text-align: center;
+}
+
+.logo_taille {
+    margin-top: -172.5px;
+    margin-bottom: 148.5px;
+    height : 145px;
+}
+
+.logo_taille_2 {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    height : 145px;
+}
+
+.g_log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.g_log_box {
+	background-color: rgba(255, 255, 255, .8);
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+	text-align:center;
+}
+
+.g_box_label {
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(39, 114, 180);
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.g_box_input {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.g_button {
+    margin: 10px 10px 7.5px 10px;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: 17px;
+}
+
+.lien_page_index {
+    text-align: center;
+    color:rgb(39, 114, 180);
+    font-size: 17.5px;
+    font-weight: lighter;
+}
+		
+.box_accueil {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 60vw;
+	height: 25vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-size: 24px;
+	font-style: italic;
+}
+
+.box_acceuil_2 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 60vw;
+	height: 25vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-size: 1.2vw;
+	font-style: italic;
+}
+
+.box_publi {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	width: 60vw;
+	height: 3vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-size: 24px;
+	font-style: italic;
+}
+
+.box_publi label {
+	padding: 12.5px;
+}
+
+.box_acceuil_supp {
+	text-align: center;
+	margin-top: 20px;
+}
+		
+.box_acceuil_supp button {
+	width: 60vw;
+	height: 5vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+	font-size: 17.5px;
+}
+
+.box_com_supp {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+		
+.box_com_supp button {
+	width: 250px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+	font-size: 17.5px;
+}
+
+.gif {
+	height: 100px;
+}
+		
+.compte_centre {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.compte_centre_2 {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.compte_centre_2 h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.compte_centre_2 p {
+	margin: 0;
+	padding: 0;
+}
+		
+.box_acceuil_supp {
+	text-align: center;
+	margin-top: 20px;
+}
+		
+.box_acceuil_supp button {
+	width: 60vw;
+	height: 5vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+	font-size: 17.5px;
+}
+/* Responsive */
+@media screen and (max-width: 912px) {
+/* Responsive logo connexion page d'accueil */
+nav {
+	flex-direction: column;
+	width: 60vw;
+	height: 30vh;
+}
+		
+nav li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60vw;
+	font-size: 4vw;
+	font-style: italic;
+}
+
+.logo_taille {
+    margin-bottom: 187.5px;
+    height : 85px;
+}
+
+.logo_taille_2 {
+    margin-bottom: 187.5px;
+    height : 85px;
+}
+
+.box_acceuil {
+	font-size: 3vw;
+}
+		
+.compte_centre {
+	font-size: 3vw;
+}
+
+.box_publi {
+	height: 175px;
+	display: flex;
+	flex-direction: column;
+}
+}
