@@ -8,7 +8,7 @@ CHEMIN: <br>
 cd back <br>
 
 INSTALLATION: <br>
-Init : npm init <br>
+Init : npm init (server.js)<br>
 Package Nodemon : npm i -g nodemon <br>
 Package Express : npm i --save express <br>
 Package HTTP : npm i http <br>
